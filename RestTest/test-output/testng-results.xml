@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-18T11:54:28 IST" name="Suite" finished-at="2021-06-18T11:54:32 IST" duration-ms="3445">
+    <groups>
+    </groups>
+    <test started-at="2021-06-18T11:54:28 IST" name="Test" finished-at="2021-06-18T11:54:32 IST" duration-ms="3445">
+      <class name="Demo.RestassuredAPDeleteDemo2">
+        <test-method is-config="true" signature="Setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Demo.RestassuredAPDeleteDemo2@4229bb3f]" started-at="2021-06-18T11:54:28 IST" name="Setup" finished-at="2021-06-18T11:54:28 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:3000/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="getdata()[pri:0, instance:Demo.RestassuredAPDeleteDemo2@4229bb3f]" started-at="2021-06-18T11:54:28 IST" name="getdata" finished-at="2021-06-18T11:54:29 IST" duration-ms="1099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method signature="test_1(java.lang.String)[pri:0, instance:Demo.RestassuredAPDeleteDemo2@4229bb3f]" started-at="2021-06-18T11:54:29 IST" name="test_1" data-provider="testdata" finished-at="2021-06-18T11:54:32 IST" duration-ms="2186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+        <test-method signature="test_1(java.lang.String)[pri:0, instance:Demo.RestassuredAPDeleteDemo2@4229bb3f]" started-at="2021-06-18T11:54:32 IST" name="test_1" data-provider="testdata" finished-at="2021-06-18T11:54:32 IST" duration-ms="47" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+        <test-method is-config="true" signature="TearDownTest()[pri:0, instance:Demo.RestassuredAPDeleteDemo2@4229bb3f]" started-at="2021-06-18T11:54:32 IST" name="TearDownTest" finished-at="2021-06-18T11:54:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Demo.RestassuredAPDeleteDemo2@4229bb3f]" started-at="2021-06-18T11:54:32 IST" name="TearDown" finished-at="2021-06-18T11:54:32 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Demo.RestassuredAPDeleteDemo2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

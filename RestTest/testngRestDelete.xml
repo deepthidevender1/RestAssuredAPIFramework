@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="TestAPiUrl" value="http://localhost:3000/"></parameter>
+ <parameter name="TestResource" value="/users"></parameter>
+  	<parameter name="TestResourceId" value="/2"></parameter>
+  <test name="Test">
+    <classes>
+      <class name="Demo.RestassuredAPDeleteDemo2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
